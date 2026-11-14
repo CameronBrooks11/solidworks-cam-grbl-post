@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="760" height="360" viewBox="0 0 760 360" font-family="Helvetica, Arial, sans-serif" font-size="13">
+<rect width="760" height="360" fill="#ffffff"/>
+<rect x="91.6" y="220.0" width="120.5" height="38.0" fill="#d9b98c" stroke="#8a6a3a"/>
+<text x="151.9" y="276.0" text-anchor="middle" fill="#333">board, work Z0 on its top</text>
+<line x1="40" y1="64.0" x2="720" y2="64.0" stroke="#bbb" stroke-dasharray="4 4"/>
+<text x="400" y="56.0" text-anchor="middle" fill="#666">machine Z -2, just below the top of travel</text>
+<path d="M694.2,62.0 L694.2,224.0 L212.2,224.0" fill="none" stroke="#c62828" stroke-width="3"/>
+<path d="M694.2,62.0 L694.2,64.0 L100.3,64.0 L100.3,210.0" fill="none" stroke="#1565c0" stroke-width="3"/>
+<circle cx="212.2" cy="224.0" r="9" fill="none" stroke="#c62828" stroke-width="2.5"/>
+<text x="226.2" y="250.0" fill="#c62828">rapid into the board, 2 mm below its top</text>
+<circle cx="694.2" cy="60.0" r="5" fill="#333"/>
+<text x="702.2" y="50.0" text-anchor="end" fill="#333">homed</text>
+<rect x="40" y="326" width="14" height="4" fill="#c62828"/>
+<text x="60" y="332" fill="#333">old post: G0 G53 X0 Y0, G0 Z-2 (work), G0 X10 Y10</text>
+<rect x="40" y="344" width="14" height="4" fill="#1565c0"/>
+<text x="60" y="350" fill="#333">this post: G21 G53 G0 Z-2 (machine), G0 X10 Y10, Z5</text>
+</svg>
