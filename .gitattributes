@@ -1,0 +1,3 @@
+# UPG-2 reads and writes these with CRLF line endings; keep them byte for byte.
+*.SRC -text
+*.LIB -text
